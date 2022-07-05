@@ -5,20 +5,14 @@
     font-family: Arial, Helvetica, sans-serif, Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.menu_arriba__{
-
-}
-
 .menu_arriba__nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: aqua;
-
 }
 
 .menu_arriba__nav img{
-    height: 2.5rem;
+    height: 2rem;
 }
 
 .menu_arriba__nav ul{
@@ -36,12 +30,13 @@
     text-decoration: none;
 }
 
-.menu_arriba__nav__registro__{
-    background-color: grey;
-    padding: 0.3rem;
-    border-radius: 5rem;
+.menu_arriba__nav__registro__ li{
 }
 
 .menu_arriba__nav__registro__ a{
-    color: black;
+    color: white;
+    background-color: grey;
+    border-bottom-left-radius: 15rem;
+    border-top-right-radius: 15rem;
+    padding: 0.5rem;
 }
