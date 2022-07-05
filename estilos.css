@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu_arriba__{
+
+}
+
+.menu_arriba__nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aqua;
+
+}
+
+.menu_arriba__nav img{
+    height: 2.5rem;
+}
+
+.menu_arriba__nav ul{
+    list-style: none;
+    display: inline-block;
+}
+
+.menu_arriba__nav li{
+    display: inline-block;
+    padding: 1rem;
+}
+
+.menu_arriba__nav a{
+    color: black;
+    text-decoration: none;
+}
+
+.menu_arriba__nav__registro__{
+    background-color: grey;
+    padding: 0.3rem;
+    border-radius: 5rem;
+}
+
+.menu_arriba__nav__registro__ a{
+    color: black;
+}
